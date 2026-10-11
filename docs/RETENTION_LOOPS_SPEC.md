@@ -1,7 +1,7 @@
 # AVOID.NET Retention Loops — Attention, Reward and Community
 
 **Status:** proposal · **Created:** 2026-09-21 · **Owner:** product
-**Pairs with:** [HOMEPAGE_V2_SPEC.md](HOMEPAGE_V2_SPEC.md) (the front door this builds on) · [MOBILE_APP_SPEC.md](MOBILE_APP_SPEC.md) (watchlist, push, notification outbox) · [DATA_PAGE_SPEC.md](DATA_PAGE_SPEC.md) (dashboards) · [STIGMERGY.md](../STIGMERGY.md) (submission and reputation mechanics) · `CLAUDE.md` (caching and cost rules every item below must respect)
+**Pairs with:** HOMEPAGE_V2_SPEC.md (the front door this builds on) · [MOBILE_APP_SPEC.md](MOBILE_APP_SPEC.md) (watchlist, push, notification outbox) · DATA_PAGE_SPEC.md (dashboards) · STIGMERGY.md (submission and reputation mechanics) · `CLAUDE.md` (caching and cost rules every item below must respect)
 
 > **The question this answers.** Why would someone come back to AVOID.NET
 > tomorrow? Today the site is an archive: it answers a question once and

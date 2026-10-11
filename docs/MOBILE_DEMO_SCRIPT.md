@@ -2,7 +2,7 @@
 
 **Status:** DRAFT 4, written Thu 8 Oct 2026 (draft 3 earlier the same day) · **Build:** mobile 0.2.6 · **Install:** 8 Oct · **Record:** Fri 9 Oct · **Submit:** Sat 10 Oct (CLOCK IN deadline extended to 10 Oct; check the exact cut-off time on the CLOCK IN page)
 **Length:** 2:50 target, 3:00 hard cap (Colosseum's demo limit; CLOCK IN asks for a demo video) · **Colosseum window:** 14 Sep – 12 Oct
-**Pairs with:** [MOBILE_APP_SPEC.md](MOBILE_APP_SPEC.md) §1–2 · [MOBILE_DEVICE_TEST_0.2.6.md](MOBILE_DEVICE_TEST_0.2.6.md) (the device test grouped by these beats; rehearse with it) · [POSITIONING.md](POSITIONING.md) · [COLOSSEUM_PITCH_2026-10.md](COLOSSEUM_PITCH_2026-10.md)
+**Pairs with:** [MOBILE_APP_SPEC.md](MOBILE_APP_SPEC.md) §1–2 · MOBILE_DEVICE_TEST_0.2.6.md (the device test grouped by these beats; rehearse with it) · [POSITIONING.md](POSITIONING.md) · COLOSSEUM_PITCH_2026-10.md
 
 > **One demo, two framings.** CLOCK IN weighs AI 20%, SKR 20%, UX 15%, UI 15%,
 > Innovation 15% and Ecosystem 15%, so this cut leans on the phone, the wallet

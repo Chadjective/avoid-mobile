@@ -65,9 +65,9 @@ Seven jobs. The spec calls them J1 to J7
 
 Where the numbers come from: the 5,000 lamport figure is from spec D5. The tier
 limits are in
-[`web/src/app/api/v1/watchlist/_shared.ts`](https://github.com/Chadjective/avoid-intel/blob/main/web/src/app/api/v1/watchlist/_shared.ts)
+`web/src/app/api/v1/watchlist/_shared.ts`
 (10 follows, 50 for SKR holders) and
-[`web/src/lib/wallet-scan.ts`](https://github.com/Chadjective/avoid-intel/blob/main/web/src/lib/wallet-scan.ts) (2 scans a day
+`web/src/lib/wallet-scan.ts` (2 scans a day
 anonymous, 10 signed in, times 3 for SKR holders).
 
 Two design choices worth knowing about:
@@ -83,8 +83,8 @@ Two design choices worth knowing about:
 
 ### Retention features (shipped in 0.2.2)
 
-[PR #212](https://github.com/Chadjective/avoid-intel/pull/212) and
-[PR #187](https://github.com/Chadjective/avoid-intel/pull/187) are merged and
+PR #212 and
+PR #187 are merged and
 are in `main` (mobile 0.2.2 and later). These are the "why come back tomorrow"
 features. Follow works on a device; the others are built but not each
 confirmed one by one on a phone.
@@ -137,7 +137,7 @@ decisions are written to a public ledger.
    The server accepts it only if the memo starts with the exact expected text.
 
 The agents run as Claude Code subagents, never through direct API calls (see
-[`CLAUDE.md`](https://github.com/Chadjective/avoid-intel/blob/main/CLAUDE.md)). Requests made in the app enter the same queue. The
+`CLAUDE.md`). Requests made in the app enter the same queue. The
 queue is drained by a cloud routine every four hours (00, 04, 08, 12, 16 and
 20 UTC), up to 10 requests per run.
 
@@ -261,8 +261,10 @@ Store listing, iOS.
 
 ## What was built when
 
-Short version. Full detail in
-[`docs/HACKATHON_SUBMISSION_2026-10.md`](https://github.com/Chadjective/avoid-intel/blob/main/docs/HACKATHON_SUBMISSION_2026-10.md).
+Short version. The full, dated list is in
+`docs/HACKATHON_SUBMISSION_2026-10.md`
+in the platform repository, which is private; every app change is also dated
+in [`CHANGELOG.md`](CHANGELOG.md).
 
 - **Before the windows.** The avoid.net website, the research, review and judge
   agents, the database, the public API and MCP server, and the Solana anchoring
@@ -287,7 +289,6 @@ Short version. Full detail in
 - Why people come back: [`docs/RETENTION_LOOPS_SPEC.md`](docs/RETENTION_LOOPS_SPEC.md)
 - How it differs from Chainalysis and contract scanners: [`docs/POSITIONING.md`](docs/POSITIONING.md)
 - Changelog: [`CHANGELOG.md`](CHANGELOG.md)
-- Submission disclosure and form drafts: [`docs/HACKATHON_SUBMISSION_2026-10.md`](https://github.com/Chadjective/avoid-intel/blob/main/docs/HACKATHON_SUBMISSION_2026-10.md)
 - Public repository (this app, Apache-2.0): https://github.com/Chadjective/avoid-mobile
 - APK download: https://github.com/Chadjective/avoid-mobile/releases/latest
 
@@ -385,7 +386,7 @@ npx eas env:list --environment preview
 `preview` produces an **APK** (`android.buildType: "apk"`,
 `distribution: "internal"`), for test installs. `production` produces an
 **AAB** for the dApp Store. CI can run either by hand: see
-[`.github/workflows/mobile-build.yml`](https://github.com/Chadjective/avoid-intel/blob/main/.github/workflows/mobile-build.yml),
+`.github/workflows/mobile-build.yml`,
 which needs an `EXPO_TOKEN` repository secret and queues the build with
 `--no-wait` so no CI minutes are spent waiting. Pushes to `mobile/` run the
 typecheck only.
@@ -542,7 +543,7 @@ Sign in with Solana tries two paths, in order
 Either way the same triple — message text, base64 signature, base58 address —
 goes first to Supabase (`signInWithWeb3({chain:'solana', …})`) for the session
 and then to `PATCH /api/me` for the wallet link. The server re-verifies it in
-[`web/src/lib/siws.ts`](https://github.com/Chadjective/avoid-intel/blob/main/web/src/lib/siws.ts), which is the authority on the
+`web/src/lib/siws.ts`, which is the authority on the
 message grammar; `siws-message.ts` is a port of its `buildSiwsMessage()` and
 the two have to move together. The domain (`avoid.net` or `www.avoid.net`) is in that
 module's `DEFAULT_SIWS_DOMAINS`, so no server env var is needed. The chain id

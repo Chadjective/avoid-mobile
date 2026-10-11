@@ -1,7 +1,7 @@
 # AVOID.NET Mobile — Technical Specification
 
 **Status:** v1 — D1–D4 locked 2026-09-16 (Expo · `mobile/` in this repo · Expo cloud builds via GitHub Actions · Seeker available for testing) · **Owner:** product
-**Pairs with:** [SPEC.md](SPEC.md) (system spec, canonical) · [WALLET_SCAN_SPEC.md](WALLET_SCAN_SPEC.md) · [AGENT_ACCESS_ROADMAP.md](AGENT_ACCESS_ROADMAP.md) · [HACKATHON_ROADMAP.md](HACKATHON_ROADMAP.md) (Colosseum Frontier, May 2026 — the previous hackathon) · [RETENTION_LOOPS_SPEC.md](RETENTION_LOOPS_SPEC.md) §9a (why people come back: the loops, screen by screen) · [MOBILE_HACKATHON_READINESS.md](MOBILE_HACKATHON_READINESS.md) (status as of 26 Sep)
+**Pairs with:** SPEC.md (system spec, canonical) · WALLET_SCAN_SPEC.md · AGENT_ACCESS_ROADMAP.md · HACKATHON_ROADMAP.md (Colosseum Frontier, May 2026 — the previous hackathon) · [RETENTION_LOOPS_SPEC.md](RETENTION_LOOPS_SPEC.md) §9a (why people come back: the loops, screen by screen) · [MOBILE_HACKATHON_READINESS.md](MOBILE_HACKATHON_READINESS.md) (status as of 26 Sep)
 
 > **Read this first.** This document does three things: (1) pins the hard
 > constraints of the two hackathons we are submitting to, (2) specifies the

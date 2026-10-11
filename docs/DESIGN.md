@@ -3,8 +3,8 @@
 **Status:** living document · **Owner:** chadjective · **Last revised:** 2026-05-04
 
 This is the canonical design doc for AVOID.NET. Every page that renders
-to a public reader must obey it. Pairs with [docs/SPEC.md](../docs/SPEC.md)
-(system spec) and [docs/HACKATHON_ROADMAP.md](../docs/HACKATHON_ROADMAP.md)
+to a public reader must obey it. Pairs with docs/SPEC.md
+(system spec) and docs/HACKATHON_ROADMAP.md
 (execution plan).
 
 The `avoid-design` Claude skill is the invokable deep-reference version
@@ -211,9 +211,9 @@ Don't lead with `EDIT THIS PAGE`.
 
 ## 13. Reference
 
-- [docs/SPEC.md](../docs/SPEC.md) — system spec
-- [docs/HACKATHON_ROADMAP.md](../docs/HACKATHON_ROADMAP.md) — execution plan
-- [POLISH_PASS.md](POLISH_PASS.md) — granular to-do list for the design pass
+- docs/SPEC.md — system spec
+- docs/HACKATHON_ROADMAP.md — execution plan
+- POLISH_PASS.md — granular to-do list for the design pass
 - `avoid-design` Claude skill — invokable deep reference
 - Reference homepage: https://avoid.net (the brand-language target,
   parallel design — both localhost pages must converge to its idiom)
